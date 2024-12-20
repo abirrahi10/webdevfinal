@@ -11,7 +11,7 @@ const PORT = 3000;
 //connect to db
 const db = new Client({
     user: "postgres",
-    host: "localhost",
+    host: "127.0.0.1",
     database: "mimi_recipes",
     password: "1234",
     port: 5432,
